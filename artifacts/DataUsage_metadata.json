@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "mesaage",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_actorID",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_serviceName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_servicePurpose",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_operation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_personalData",
+						"type": "string[]"
+					}
+				],
+				"name": "addDataPurpose",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDataPurposes",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "blockNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "actorID",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "serviceName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "servicePurpose",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "operation",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string[]",
+								"name": "personalData",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct DataUsage.DataPurpose[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project3.0 final/DataUsage3.0.sol": "DataUsage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project3.0 final/DataUsage3.0.sol": {
+			"keccak256": "0xde0faa0db2f396608ccc20837a0a62bbf92ed749a5f1f0798474c72dc7441cf5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://57aeb191e5c66775b8cd6aeb85347962d414f0dfcde241a9743c20f3fd3a2dda",
+				"dweb:/ipfs/QmSiHU5Ebix6Sdz2DwvgcnWiN3fVD4akgMPehZo7m4gFb3"
+			]
+		}
+	},
+	"version": 1
+}

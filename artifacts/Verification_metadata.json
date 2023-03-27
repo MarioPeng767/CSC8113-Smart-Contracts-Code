@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getVioActor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "numVioActor",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_usageAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_agreeAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_logAddr",
+						"type": "address"
+					}
+				],
+				"name": "updateAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "verification",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project3.0 final/Verification2.0_init.sol": "Verification"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project3.0 final/Agreement3.0.sol": {
+			"keccak256": "0xc7cca93a916c932460c2c0a06f370e21a03ac2a7a1a26722b3cf3498b469aeb8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58be9028bb488579d8369754e1b9f56d251026a6cb9ad279686d21e15cacc6ac",
+				"dweb:/ipfs/QmbEtmj9GK5xgYPNkiFpitQzLVctQDcYr4joAbYmDnjbf8"
+			]
+		},
+		"project3.0 final/DataUsage3.0.sol": {
+			"keccak256": "0xde0faa0db2f396608ccc20837a0a62bbf92ed749a5f1f0798474c72dc7441cf5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://57aeb191e5c66775b8cd6aeb85347962d414f0dfcde241a9743c20f3fd3a2dda",
+				"dweb:/ipfs/QmSiHU5Ebix6Sdz2DwvgcnWiN3fVD4akgMPehZo7m4gFb3"
+			]
+		},
+		"project3.0 final/Log3.0.sol": {
+			"keccak256": "0x5a45b83f04023135f0b25c61e5c243b472992a3f2d386107650988b98ea8a647",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe35add4028d365d32d993975af1f8ac902cd17e20798b18ca394f1beb4ccc8b",
+				"dweb:/ipfs/QmZfwYDKm1BsXkkHrjChadikrHhAp18ncSRCroFTENVDNR"
+			]
+		},
+		"project3.0 final/Verification2.0_init.sol": {
+			"keccak256": "0x84c6dec966aeabfcc5e2a2f54c9d02166526ccf24fc0019fdcc77eda33e950bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7fe89bc23d03b04cc65d155a5f2af7090e3ab54c45dd545fc7eb11bad05a2ac",
+				"dweb:/ipfs/QmVZ8HxkB46hGyd6yNx7f7D8eDFQ3dPoVNY6JgwypG5pES"
+			]
+		}
+	},
+	"version": 1
+}

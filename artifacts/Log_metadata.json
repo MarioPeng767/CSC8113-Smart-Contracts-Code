@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_blockNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_actorId",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_operation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_personalData",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string",
+						"name": "_serviceName",
+						"type": "string"
+					}
+				],
+				"name": "addLog",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getActorId",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getOperation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getPersonalData",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project3.0 final/Log3.0.sol": "Log"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project3.0 final/Log3.0.sol": {
+			"keccak256": "0x5a45b83f04023135f0b25c61e5c243b472992a3f2d386107650988b98ea8a647",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe35add4028d365d32d993975af1f8ac902cd17e20798b18ca394f1beb4ccc8b",
+				"dweb:/ipfs/QmZfwYDKm1BsXkkHrjChadikrHhAp18ncSRCroFTENVDNR"
+			]
+		}
+	},
+	"version": 1
+}
